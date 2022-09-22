@@ -17,6 +17,21 @@ body {
   background-color: #ffffff;
   color: var(--main-color);
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
 .list {
   list-style: none;
 }
@@ -24,7 +39,24 @@ body {
 .link {
   text-decoration: none;
 }
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* -----------header =============*/
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .logo {
   font-family: "Raleway";
   font-style: normal;
@@ -74,15 +106,18 @@ body {
 /* ----------- Hero=============*/
 .hero {
   background-color: var(--background-color-second);
+  text-align: center;
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--second-color);
+
+  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -98,6 +133,8 @@ body {
   border-color: transparent;
   color: var(--second-color);
   cursor: pointer;
+  padding: 10px 32px;
+  min-width: 216px;
 }
 
 .hero-btn:hover,
@@ -225,6 +262,26 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: var(--background-color-third);
+
+  padding: 6px 22px;
+}
+
+.portfolio-list-btn .btn-all {
+  width: 73px;
+  padding: 6px 25px;
+}
+.btn-web {
+  width: 125px;
+}
+.btn-app {
+  width: 112px;
+}
+.btn-design {
+  width: 103px;
+}
+
+.btn-marketing {
+  width: 130px;
 }
 
 .portfolio-link {
