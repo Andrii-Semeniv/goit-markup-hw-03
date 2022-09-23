@@ -112,7 +112,6 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--second-color);
@@ -161,6 +160,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .adventage-text {
   font-size: 14px;
@@ -169,11 +169,16 @@ ul {
   color: var(--second-text-color);
 }
 /* ----------- exaples=============*/
+.examples {
+  padding-top: 0px;
+}
+
 .examples-title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 .team-title {
@@ -186,23 +191,35 @@ ul {
 
 .team {
   background-color: var(--background-color-third);
+  text-align: center;
 }
+
+.team-list {
+  text-align: left;
+}
+
 .team-list-item {
   background-color: var(--team-background-color);
+}
+.team-title {
+  margin-bottom: 50px;
+  display: inline-block;
 }
 
 .team-list-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-list-position {
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
@@ -210,6 +227,11 @@ ul {
 /* ----------- footer=============*/
 .footer {
   background-color: var(--background-color-second);
+}
+.logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: inline-block;
 }
 
 .logo-part-footer {
@@ -224,6 +246,8 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  margin-bottom: 9px;
+  display: inline-block;
 }
 .adress-tel,
 .adress-mail {
@@ -231,8 +255,15 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-link-color);
+  display: inline-block;
 }
 
+.adress-mail {
+  margin-bottom: 9px;
+}
+.adress-tel {
+  margin-bottom: 60px;
+}
 .adress-tel:hover,
 .adress-mail:hover,
 .adress-location:hover {
@@ -251,6 +282,7 @@ ul {
   color: var(--second-color);
   background-color: var(--btn-background-color);
 }
+
 .portfolio-list-btn {
   font-family: inherit;
   cursor: pointer;
@@ -266,22 +298,8 @@ ul {
   padding: 6px 22px;
 }
 
-.portfolio-list-btn .btn-all {
-  width: 73px;
+.btn-all {
   padding: 6px 25px;
-}
-.btn-web {
-  width: 125px;
-}
-.btn-app {
-  width: 112px;
-}
-.btn-design {
-  width: 103px;
-}
-
-.btn-marketing {
-  width: 130px;
 }
 
 .portfolio-link {
