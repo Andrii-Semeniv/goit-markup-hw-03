@@ -180,6 +180,10 @@ img {
 }
 
 /* ----------- advantage=============*/
+.advantage {
+  padding-bottom: 47px;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -219,7 +223,7 @@ img {
 }
 /* ----------- exaples=============*/
 .examples {
-  padding-top: 0px;
+  padding-top: 47px;
 }
 .examples-list {
   display: flex;
@@ -363,9 +367,6 @@ img {
   background-color: var(--background-color-third);
 }
 
-.btn-all {
-  padding: 6px 25px;
-}
 .portfolio-exaples-list {
   display: flex;
   flex-wrap: wrap;
