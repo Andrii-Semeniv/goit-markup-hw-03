@@ -10,6 +10,8 @@
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --btn-background-color: #2196f3;
   --btn-second-color: #188ce8;
+  --border-color-first: #ececec;
+  --border-color-second: #eeeeee;
 }
 
 body {
@@ -61,7 +63,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--border-color-first);
 }
 
 .header-container {
@@ -71,7 +73,7 @@ img {
 
 .logo {
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 25px;
   margin-right: 93px;
   display: block;
 
@@ -373,8 +375,6 @@ img {
 }
 .portfolio-emamples-item {
   margin: 15px;
-  border: 1px solid #eeeeee;
-  border-top: 0px;
   width: 370px;
 }
 
@@ -401,4 +401,7 @@ img {
 .portfolio-img-sign {
   padding: 20px 24px;
   background-color: var(--team-background-color);
+  border-left: 1px solid var(--border-color-second);
+  border-right: 1px solid var(--border-color-second);
+  border-bottom: 1px solid var(--border-color-second);
 }
