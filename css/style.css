@@ -61,8 +61,6 @@ img {
 }
 /* -----------header =============*/
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid var(--border-color-first);
 }
 
@@ -92,7 +90,6 @@ img {
 .navigation {
   display: flex;
   gap: 50px;
-  margin-right: 344px;
 
   font-weight: 500;
   font-size: 14px;
@@ -118,6 +115,7 @@ img {
 .contact-list {
   display: flex;
   gap: 50px;
+  margin-left: auto;
 }
 
 .header-mail,
@@ -143,6 +141,8 @@ img {
 .hero {
   background-color: var(--background-color-second);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   margin: 0 auto;
@@ -218,7 +218,7 @@ img {
 }
 .adventage-text {
   font-size: 14px;
-  line-height: 1 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
@@ -267,7 +267,6 @@ img {
 }
 .team-title {
   margin-bottom: 50px;
-  display: inline-block;
 }
 
 .team-list-name {
@@ -275,7 +274,6 @@ img {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -289,23 +287,30 @@ img {
 /* ----------- footer=============*/
 .footer {
   background-color: var(--background-color-second);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
-  padding-top: 60px;
-  padding-bottom: 20px;
+  padding: 0;
+  margin-right: 0;
 }
 
 .logo-part-footer {
   color: var(--second-color);
 }
 .adress {
+  margin-top: 20px;
+
   font-style: normal;
 }
-
+.adress-list-item {
+  margin-top: 9px;
+  display: block;
+}
+.adress-list-item:first-child {
+  margin-top: 0;
+}
 .adress-location {
-  margin-bottom: 9px;
-  display: inline-block;
-
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -313,20 +318,12 @@ img {
 }
 .adress-tel,
 .adress-mail {
-  display: inline-block;
-
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-link-color);
 }
 
-.adress-mail {
-  margin-bottom: 9px;
-}
-.adress-tel {
-  margin-bottom: 60px;
-}
 .adress-tel:hover,
 .adress-mail:hover,
 .adress-location:hover {
@@ -384,7 +381,7 @@ img {
 }
 
 .portfolio-examples-name {
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 
   font-size: 18px;
   line-height: 2;
